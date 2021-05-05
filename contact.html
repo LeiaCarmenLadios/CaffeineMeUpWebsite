@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Leia Ladios 
+     WEB 150, ASN5
+     Business Name: Caffeine Me Up-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caffeine Me Up Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <!-- flex container header -->
+    <header class="flex">
+        <h1>Caffeine Me Up</h1>
+    </header>
+
+    <nav class="flex">
+        <a href="index.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a class="current" href="contact.html">Contact Us</a>
+    </nav>
+
+
+    <div>
+
+        <p class="catch">Do You Want To Get Updates On What's New?</p>
+    </div>
+
+    <h1 class="page-header">Contact Us</h1>
+    <!-- main is a flex container -->
+    <main class="flex contact-group">
+        <form method="post" action="submit.php" name="signup_form" id="signup_form" class="subform">
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p class="radio-group"> What roast do you normally go for?
+                <label>
+                    <input type="radio" name="fav-type" id="fav-type1">
+                    Light Roast (load up that caffeine)
+                </label>
+                <label>
+                    <input type="radio" name="fav-type" id="fav-type2">
+                    Medium Roast (moderate caffeine)
+                </label>
+                <label>
+                    <input type="radio" name="fav-type" id="fav-type3">
+                    Dark Roast (I'm in it for the taste)
+                </label>
+            </p>
+            <p class="check-feedback"> What kind of content would you like to see?
+                <label>
+                    <input type="checkbox" name="feedback" id="feedback1">
+                    More articles
+                </label>
+                <label>
+                    <input type="checkbox" name="feedback" id="feedback2">
+                    More recipes
+                </label>
+                <label>
+                    <input type="checkbox" name="feedback" id="feedback3">
+                    Information about other caffeinated drinks
+                </label>
+                <label>
+                    <input type="checkbox" name="feedback" id="feedback4">
+                    Don't change a thing
+                </label>
+            </p>
+            <p>
+                <label for="u-comments">Comments:</label>
+                <textarea name="u-comments" id="u-comments"
+                    placeholder="Anything else you would like us to know?"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Sign Up">
+            </p>
+
+        </form>
+
+        <section>
+            <img src="images/james-william-qMpsMY3q-Qg-unsplash.jpg"
+                alt="Four cups of coffee by James William on unsplash.com">
+        </section>
+
+    </main>
+
+    <div class="parallax2"></div>
+
+    <footer>
+        <small>Caffeine Me Up 2020 </small>
+    </footer>
+
+</body>
+
+</html>
